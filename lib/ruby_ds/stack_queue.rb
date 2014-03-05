@@ -1,0 +1,3 @@
+class RubyDS::StackQueue
+end
+
