@@ -52,7 +52,7 @@ class RubyDS::Stack
   #
   # @return [Object, Nil] - the value at the top of the stack. Nil if the stack
   # is empty.
-  def top
+  def peek
     empty? ? nil : @head.value
   end
 
